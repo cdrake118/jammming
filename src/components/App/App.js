@@ -4,6 +4,12 @@ import  SearchBar  from '../SearchBar/SearchBar';
 import  SearchResults  from '../SearchResults/SearchResults';
 import  Playlist  from '../Playlist/Playlist';
 
+/* sample data */
+let track = {
+  name: 'name',
+  artist: 'artist',
+  album: 'album'
+}
 
 class App extends Component {
     constructor(props){
